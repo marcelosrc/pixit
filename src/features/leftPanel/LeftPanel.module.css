@@ -1,0 +1,29 @@
+.left-panel {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #3c4b5a;
+}
+
+.random-images {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  filter: grayscale(100%) opacity(5%) contrast(150%);
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  bottom: 46%;
+  right: 52%;
+  padding: 20px;
+  width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-panel {
+    display: none;
+  }
+}

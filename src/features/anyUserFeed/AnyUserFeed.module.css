@@ -1,0 +1,36 @@
+.profile-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 500px;
+  padding: 20px;
+  border-bottom: solid whitesmoke 2px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile > img {
+  width: 75px;
+  height: 75px;
+  border-radius: 8px;
+}
+
+.button-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .profile-area {
+    width: auto;
+  }
+
+  .profile > img {
+    display: none;
+  }
+}

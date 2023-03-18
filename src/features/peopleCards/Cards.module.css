@@ -1,0 +1,36 @@
+.container {
+  padding: 90px 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  padding-bottom: 5px;
+}
+
+.card-id {
+  display: flex;
+  align-items: center;
+}
+
+.card-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.card-name {
+  padding-left: 10px;
+}
+
+.card-name > a > h4 {
+  color: black;
+}
+
+@media only screen and (max-width: 740px) {
+  .container {
+    display: none;
+  }
+}

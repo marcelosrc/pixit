@@ -1,0 +1,42 @@
+.container {
+  padding: 70px 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.picture {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.panel {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.panel-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    display: none;
+  }
+}
